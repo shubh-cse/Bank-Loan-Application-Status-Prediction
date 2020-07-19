@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bank Loan Application Status Prediction</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+	<script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+	<div class="header">
+            <h2 class='container-heading'><span class="heading_font"><center>Bank Loan Status Prediction</center></span></h2>
+            <div class='description'>
+    			<p><center>A Machine Learning Web App, Built with Flask, Deployed using Heroku</center></p>
+    		</div>
+    </div>
+	<div class="container">
+		<div class="img">
+			<img src="{{ url_for('static', filename='bank_manager.jpg') }}">
+		</div>
+		<div class="login-content">
+			<form action="{{ url_for('predict') }}" method="POST">
+				<h2 class="title">Welcome</h2>
+           		<input class="form-input" type="text" name="age" placeholder="Age"><br>
+                <input class="form-input" type="text" name="ed" placeholder="Education"><br>
+                <input class="form-input" type="text" name="employ" placeholder="Employment"><br>
+                <input class="form-input" type="text" name="address" placeholder="Address"><br>
+                <input class="form-input" type="text" name="income" placeholder="Income"><br>
+                <input class="form-input" type="text" name="debtinc" placeholder="Individual's Debt"><br>
+                <input class="form-input" type="text" name="creddebt" placeholder="Credit Limits"><br>
+                <input class="form-input" type="text" name="othdebt" placeholder="Other Debts"><br>
+        		<input type="submit" class="btn" value="Predict">
+			</form>
+        </div>
+    </div>
+	<div class="footer">
+	<a style="position:absolute;top:15px;left:1050px;color:white;" target="_blank" href="https://github.com/shubh-cse/Bank-Loan-Application-Status-Prediction"><i class="fab fa-github fa-lg contact-icon"></i></a>
+    <a style="position:absolute;top:15px;left:1100px;color:white;" target="_blank" href="https://www.linkedin.com/in/shubh-cse"><i class="fab fa-linkedin fa-lg contact-icon"></i></a>
+    <a style="position:absolute;top:15px;left:1150px;color:white;" target="_blank" href="https://shubhg1999@gmail.com"><i class="fa fa-envelope fa-lg contact-icon"></i></a>
+    <center><span style="position:absolute;top:13px;">&copy; <b>Shubh Gupta</b></span></center>
+	</div>s
+</body>
+</html>
