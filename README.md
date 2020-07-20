@@ -21,7 +21,7 @@
 4. Address       - Geographic area      - Numerical
 5. Income        - Gross Income         - Numerical
 6. Debtinc       - Individual’s debt    - Numerical
-7. Creddebt      - debt-to-credit ratio - Numerical
+7. Creddebt      - Debt to credit ratio - Numerical
 8. Othdebt       - Any other debts      - Numerical
 
 # Missing Values
