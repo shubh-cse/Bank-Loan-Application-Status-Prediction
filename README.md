@@ -2,16 +2,13 @@
 
 *A Machine Learning Web App built with Flask*
 
-# Problem Statement
-
+## Problem Statement
 *The loan default dataset has 8 variables and 850 records, each record being loan default status for each customer. Each Applicant was rated as “Defaulted” or “Not-Defaulted”. New applicants for loan application can also be evaluated on these 8 predictor variables and classified as a default or non-default based on predictor variables.*
 
-# Data Set
-
+## Data Set
 *bank-loan.csv*
 
-# Number of Attributes
-
+## Number of Attributes
 *There are total 8 attributes which are given below :-*
 
    Variable Name - Variable Description - Variable Type
@@ -24,12 +21,10 @@
 7. Creddebt      - Debt to credit ratio - Numerical
 8. Othdebt       - Any other debts      - Numerical
 
-# Missing Values
-
+## Missing Values
 Yes
 
-# Tools & Technologies
-
+## Tools & Technologies
 1. Python
 2. R
 3. Machine Learning
@@ -40,14 +35,12 @@ Yes
 8. HTML
 9. CSS
 
-# Algorithms
-
+## Algorithms
 1. Logistic Regression
 2. Decision Tree
 3. Random Forest
 
-# Libraries
-
+## Libraries
 1. os
 2. numpy
 3. pandas
@@ -56,8 +49,7 @@ Yes
 6. seaborn
 7. sklearn
 
-# Performance Metrics
-
+## Performance Metrics
 1. Accuracy
 2. Recall
 3. Precision
@@ -67,15 +59,13 @@ Yes
 7. False Positive Rate
 8. False Negative Rate
 
-# Visualizations
-
+## Visualizations
 1. Bar Graph
 2. Pie Chart
 3. Pair Plot
 4. Box Plot
 
-# Table of Contents
-
+## Table of Contents
 1.  Importing libraries
 2.  Loading data set
 3.  Missing value analysis
