@@ -79,7 +79,7 @@ Yes
 11. Model selection
 12. Freezing best model
 
-#### *A glimpse of the Web App*
+### *A glimpse of the Web App*
 
 ![welcome-page](https://user-images.githubusercontent.com/68144553/88032362-785c5180-cb5b-11ea-9767-dead52af9fd6.JPG)
 ![loan-approval-page](https://user-images.githubusercontent.com/68144553/88032349-75f9f780-cb5b-11ea-957b-3e4bb10a183a.JPG)
