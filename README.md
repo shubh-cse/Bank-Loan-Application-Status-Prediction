@@ -78,5 +78,3 @@ Yes
 10. Performance metrics
 11. Model selection
 12. Freezing best model
-
-[live-demonstration.zip](https://github.com/shubh-cse/Bank-Loan-Application-Status-Prediction/files/4952064/live-demonstration.zip)
